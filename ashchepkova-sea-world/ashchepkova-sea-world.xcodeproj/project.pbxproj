@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6846782383CA430063A275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6846772383CA430063A275 /* AppDelegate.swift */; };
+		7A68467A2383CA430063A275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6846792383CA430063A275 /* SceneDelegate.swift */; };
+		7A68467C2383CA430063A275 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68467B2383CA430063A275 /* ContentView.swift */; };
+		7A68467E2383CA460063A275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A68467D2383CA460063A275 /* Assets.xcassets */; };
+		7A6846812383CA460063A275 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6846802383CA460063A275 /* Preview Assets.xcassets */; };
+		7A6846842383CA460063A275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6846822383CA460063A275 /* LaunchScreen.storyboard */; };
+		7A68468F2383CA460063A275 /* ashchepkova_sea_worldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68468E2383CA460063A275 /* ashchepkova_sea_worldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A68468B2383CA460063A275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A68466C2383CA430063A275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6846732383CA430063A275;
+			remoteInfo = "ashchepkova-sea-world";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6846742383CA430063A275 /* ashchepkova-sea-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ashchepkova-sea-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6846772383CA430063A275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A6846792383CA430063A275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A68467B2383CA430063A275 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A68467D2383CA460063A275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A6846802383CA460063A275 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A6846832383CA460063A275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A6846852383CA460063A275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A68468A2383CA460063A275 /* ashchepkova-sea-worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ashchepkova-sea-worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A68468E2383CA460063A275 /* ashchepkova_sea_worldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ashchepkova_sea_worldTests.swift; sourceTree = "<group>"; };
+		7A6846902383CA460063A275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6846712383CA430063A275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6846872383CA460063A275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A68466B2383CA430063A275 = {
+			isa = PBXGroup;
+			children = (
+				7A6846762383CA430063A275 /* ashchepkova-sea-world */,
+				7A68468D2383CA460063A275 /* ashchepkova-sea-worldTests */,
+				7A6846752383CA430063A275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6846752383CA430063A275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6846742383CA430063A275 /* ashchepkova-sea-world.app */,
+				7A68468A2383CA460063A275 /* ashchepkova-sea-worldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A6846762383CA430063A275 /* ashchepkova-sea-world */ = {
+			isa = PBXGroup;
+			children = (
+				7A6846772383CA430063A275 /* AppDelegate.swift */,
+				7A6846792383CA430063A275 /* SceneDelegate.swift */,
+				7A68467B2383CA430063A275 /* ContentView.swift */,
+				7A68467D2383CA460063A275 /* Assets.xcassets */,
+				7A6846822383CA460063A275 /* LaunchScreen.storyboard */,
+				7A6846852383CA460063A275 /* Info.plist */,
+				7A68467F2383CA460063A275 /* Preview Content */,
+			);
+			path = "ashchepkova-sea-world";
+			sourceTree = "<group>";
+		};
+		7A68467F2383CA460063A275 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A6846802383CA460063A275 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A68468D2383CA460063A275 /* ashchepkova-sea-worldTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A68468E2383CA460063A275 /* ashchepkova_sea_worldTests.swift */,
+				7A6846902383CA460063A275 /* Info.plist */,
+			);
+			path = "ashchepkova-sea-worldTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6846732383CA430063A275 /* ashchepkova-sea-world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6846932383CA460063A275 /* Build configuration list for PBXNativeTarget "ashchepkova-sea-world" */;
+			buildPhases = (
+				7A6846702383CA430063A275 /* Sources */,
+				7A6846712383CA430063A275 /* Frameworks */,
+				7A6846722383CA430063A275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ashchepkova-sea-world";
+			productName = "ashchepkova-sea-world";
+			productReference = 7A6846742383CA430063A275 /* ashchepkova-sea-world.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A6846892383CA460063A275 /* ashchepkova-sea-worldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6846962383CA460063A275 /* Build configuration list for PBXNativeTarget "ashchepkova-sea-worldTests" */;
+			buildPhases = (
+				7A6846862383CA460063A275 /* Sources */,
+				7A6846872383CA460063A275 /* Frameworks */,
+				7A6846882383CA460063A275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A68468C2383CA460063A275 /* PBXTargetDependency */,
+			);
+			name = "ashchepkova-sea-worldTests";
+			productName = "ashchepkova-sea-worldTests";
+			productReference = 7A68468A2383CA460063A275 /* ashchepkova-sea-worldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A68466C2383CA430063A275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alena Ashchepkova";
+				TargetAttributes = {
+					7A6846732383CA430063A275 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7A6846892383CA460063A275 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7A6846732383CA430063A275;
+					};
+				};
+			};
+			buildConfigurationList = 7A68466F2383CA430063A275 /* Build configuration list for PBXProject "ashchepkova-sea-world" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A68466B2383CA430063A275;
+			productRefGroup = 7A6846752383CA430063A275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6846732383CA430063A275 /* ashchepkova-sea-world */,
+				7A6846892383CA460063A275 /* ashchepkova-sea-worldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6846722383CA430063A275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6846842383CA460063A275 /* LaunchScreen.storyboard in Resources */,
+				7A6846812383CA460063A275 /* Preview Assets.xcassets in Resources */,
+				7A68467E2383CA460063A275 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6846882383CA460063A275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6846702383CA430063A275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6846782383CA430063A275 /* AppDelegate.swift in Sources */,
+				7A68467A2383CA430063A275 /* SceneDelegate.swift in Sources */,
+				7A68467C2383CA430063A275 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6846862383CA460063A275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A68468F2383CA460063A275 /* ashchepkova_sea_worldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A68468C2383CA460063A275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6846732383CA430063A275 /* ashchepkova-sea-world */;
+			targetProxy = 7A68468B2383CA460063A275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A6846822383CA460063A275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6846832383CA460063A275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A6846912383CA460063A275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A6846922383CA460063A275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6846942383CA460063A275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ashchepkova-sea-world/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ashchepkova-sea-world/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashchepkova.ashchepkova-sea-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A6846952383CA460063A275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ashchepkova-sea-world/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ashchepkova-sea-world/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashchepkova.ashchepkova-sea-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A6846972383CA460063A275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ashchepkova-sea-worldTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashchepkova.ashchepkova-sea-worldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ashchepkova-sea-world.app/ashchepkova-sea-world";
+			};
+			name = Debug;
+		};
+		7A6846982383CA460063A275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ashchepkova-sea-worldTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashchepkova.ashchepkova-sea-worldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ashchepkova-sea-world.app/ashchepkova-sea-world";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A68466F2383CA430063A275 /* Build configuration list for PBXProject "ashchepkova-sea-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6846912383CA460063A275 /* Debug */,
+				7A6846922383CA460063A275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6846932383CA460063A275 /* Build configuration list for PBXNativeTarget "ashchepkova-sea-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6846942383CA460063A275 /* Debug */,
+				7A6846952383CA460063A275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6846962383CA460063A275 /* Build configuration list for PBXNativeTarget "ashchepkova-sea-worldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6846972383CA460063A275 /* Debug */,
+				7A6846982383CA460063A275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A68466C2383CA430063A275 /* Project object */;
+}
