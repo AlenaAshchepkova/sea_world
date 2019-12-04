@@ -8,25 +8,8 @@
 
 import SwiftUI
 
-/*struct UISeaRow : Identifiable {
+struct UISeaRow : Identifiable {
     var id = UUID()
     var cells: [UISeaCell]
-}*/
-
-struct UISeaRow { //: Identifiable {
-    //var id = UUID()
-    var cells: [String?]
-    //var cells: [UISeaCell]
-}
- 
-/*extension UISeaRow {
-    
 }
 
-extension UISeaRow {
-    
-    static func all() -> [UISeaRow] {
-        
-        return testData
-    }
-} */

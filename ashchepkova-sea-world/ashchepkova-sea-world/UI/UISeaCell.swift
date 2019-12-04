@@ -10,8 +10,6 @@ import SwiftUI
 
 struct UISeaCell : Identifiable {
     var id = UUID()
-    //var name: String
-    //var imageName: String { return name }
     var imageName: String
 }
 

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A35446A2397844D008EB2D2 /* SeaWorldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3544692397844D008EB2D2 /* SeaWorldViewModel.swift */; };
+		7A35446E239784AA008EB2D2 /* UISeaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35446C239784AA008EB2D2 /* UISeaRow.swift */; };
+		7A35446F239784AA008EB2D2 /* UISeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35446D239784AA008EB2D2 /* UISeaCell.swift */; };
+		7A35448423978586008EB2D2 /* SeaLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35447E23978585008EB2D2 /* SeaLocation.swift */; };
+		7A35448523978586008EB2D2 /* SeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35447F23978585008EB2D2 /* SeaCell.swift */; };
+		7A35448623978586008EB2D2 /* SeaAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35448023978585008EB2D2 /* SeaAnimal.swift */; };
+		7A35448723978586008EB2D2 /* SeaWorldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35448123978586008EB2D2 /* SeaWorldModel.swift */; };
+		7A35448823978586008EB2D2 /* Orca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35448223978586008EB2D2 /* Orca.swift */; };
+		7A35448923978586008EB2D2 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35448323978586008EB2D2 /* Penguin.swift */; };
 		7A6846782383CA430063A275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6846772383CA430063A275 /* AppDelegate.swift */; };
 		7A68467A2383CA430063A275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6846792383CA430063A275 /* SceneDelegate.swift */; };
 		7A68467C2383CA430063A275 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68467B2383CA430063A275 /* ContentView.swift */; };
@@ -27,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3544692397844D008EB2D2 /* SeaWorldViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaWorldViewModel.swift; sourceTree = "<group>"; };
+		7A35446C239784AA008EB2D2 /* UISeaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISeaRow.swift; sourceTree = "<group>"; };
+		7A35446D239784AA008EB2D2 /* UISeaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISeaCell.swift; sourceTree = "<group>"; };
+		7A35447E23978585008EB2D2 /* SeaLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaLocation.swift; path = "ashchepkova-sea-world/SeaLocation.swift"; sourceTree = SOURCE_ROOT; };
+		7A35447F23978585008EB2D2 /* SeaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaCell.swift; path = "ashchepkova-sea-world/SeaCell.swift"; sourceTree = SOURCE_ROOT; };
+		7A35448023978585008EB2D2 /* SeaAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaAnimal.swift; path = "ashchepkova-sea-world/SeaAnimal.swift"; sourceTree = SOURCE_ROOT; };
+		7A35448123978586008EB2D2 /* SeaWorldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaWorldModel.swift; path = "ashchepkova-sea-world/SeaWorldModel.swift"; sourceTree = SOURCE_ROOT; };
+		7A35448223978586008EB2D2 /* Orca.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Orca.swift; path = "ashchepkova-sea-world/Orca.swift"; sourceTree = SOURCE_ROOT; };
+		7A35448323978586008EB2D2 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Penguin.swift; path = "ashchepkova-sea-world/Penguin.swift"; sourceTree = SOURCE_ROOT; };
 		7A6846742383CA430063A275 /* ashchepkova-sea-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ashchepkova-sea-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6846772383CA430063A275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6846792383CA430063A275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +76,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A354470239784C9008EB2D2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7A35446D239784AA008EB2D2 /* UISeaCell.swift */,
+				7A35446C239784AA008EB2D2 /* UISeaRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7A354471239784D8008EB2D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A3544692397844D008EB2D2 /* SeaWorldViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A35447D23978575008EB2D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A35448223978586008EB2D2 /* Orca.swift */,
+				7A35448323978586008EB2D2 /* Penguin.swift */,
+				7A35448023978585008EB2D2 /* SeaAnimal.swift */,
+				7A35447F23978585008EB2D2 /* SeaCell.swift */,
+				7A35447E23978585008EB2D2 /* SeaLocation.swift */,
+				7A35448123978586008EB2D2 /* SeaWorldModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7A68466B2383CA430063A275 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +127,9 @@
 		7A6846762383CA430063A275 /* ashchepkova-sea-world */ = {
 			isa = PBXGroup;
 			children = (
+				7A35447D23978575008EB2D2 /* Model */,
+				7A354471239784D8008EB2D2 /* ViewModel */,
+				7A354470239784C9008EB2D2 /* UI */,
 				7A6846772383CA430063A275 /* AppDelegate.swift */,
 				7A6846792383CA430063A275 /* SceneDelegate.swift */,
 				7A68467B2383CA430063A275 /* ContentView.swift */,
@@ -208,9 +259,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35448723978586008EB2D2 /* SeaWorldModel.swift in Sources */,
 				7A6846782383CA430063A275 /* AppDelegate.swift in Sources */,
+				7A35448923978586008EB2D2 /* Penguin.swift in Sources */,
+				7A35448523978586008EB2D2 /* SeaCell.swift in Sources */,
 				7A68467A2383CA430063A275 /* SceneDelegate.swift in Sources */,
+				7A35448623978586008EB2D2 /* SeaAnimal.swift in Sources */,
+				7A35448423978586008EB2D2 /* SeaLocation.swift in Sources */,
 				7A68467C2383CA430063A275 /* ContentView.swift in Sources */,
+				7A35448823978586008EB2D2 /* Orca.swift in Sources */,
+				7A35446F239784AA008EB2D2 /* UISeaCell.swift in Sources */,
+				7A35446A2397844D008EB2D2 /* SeaWorldViewModel.swift in Sources */,
+				7A35446E239784AA008EB2D2 /* UISeaRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
